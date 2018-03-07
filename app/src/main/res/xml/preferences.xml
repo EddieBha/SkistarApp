@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Allmänna inställningar">
+
+        <EditTextPreference
+            android:defaultValue="13"
+            android:key="@string/season_nr"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Säsongsnr:" />
+        <EditTextPreference
+            android:defaultValue="3206"
+            android:key="@string/skierid_nr"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Skier id nr:" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Uppdatering">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/auto_uppdatering"
+            android:title="@string/auto_update" />
+        <ListPreference
+            android:defaultValue="30"
+            android:dependency="@string/auto_uppdatering"
+            android:entries="@array/frequency"
+            android:entryValues="@array/frequency"
+            android:key="update_frequency_preference"
+            android:summary="%s min"
+            android:title="Uppdatera intervall" />
+    </PreferenceCategory>
+</PreferenceScreen>

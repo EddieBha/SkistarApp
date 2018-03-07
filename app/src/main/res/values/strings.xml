@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">SkistarApp</string>
+    <string name="title_day">"Dagens "</string>
+    <string name="title_week">"Veckans "</string>
+    <string name="title_season">Säsongens</string>
+    <string name="dagens_åk">Dagens åk:</string>
+    <string name="friends">Vänner</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_friendcount">Get friendcount</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="update_friendcount">Update Friendcount</string>
+    <string name="lift_rides">Lift rides:</string>
+    <string name="drop_height">Drop height:</string>
+    <string name="get_season_summary">Get season summary</string>
+    <string name="get_latest_statistics">Get latest day statistics</string>
+    <string name="get_latest_statistics2">Get latest statistics</string>
+    <string name="get_latest_statistics3">Get latest statistics</string>
+    <string name="dropheight">Dropheight:</string>
+    <string name="drop_h">Drop height</string>
+    <string name="lift_count">Lift count:</string>
+    <string name="get_week_statistics">Get latest week statistics</string>
+    <string name="channel_name">channel name</string>
+    <string name="channel_description">channel description</string>
+    <string name="settings_button">Settings</string>
+    <string name="settings_knapp">Inställningar</string>
+    <string name="auto_update">Automatisk uppdatering</string>
+    <string name="antal_vänner">Antal vänner</string>
+    <string name="senaste_dagsstatistiken">Senaste dagsstatistiken</string>
+    <string name="senaste_veckostatistiken">Senaste veckostatistiken</string>
+    <string name="season_nr">seasonnumber</string>
+    <string name="skierid_nr">skieridnr</string>
+    <string name="auto_uppdatering">autouppdatering</string>
+    <string name="connection_check">Nätverk</string>
+    <string name="check_network">Kolla nätverksanslutning</string>
+
+</resources>

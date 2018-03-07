@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_friends"
+        android:icon="@drawable/ic_group_black_24dp"
+        android:title="@string/friends" />
+    <item
+        android:id="@+id/navigation_dagens"
+        android:icon="@drawable/ic_today_black_24dp"
+        android:title="@string/title_day" />
+
+    <item
+        android:id="@+id/navigation_week"
+        android:icon="@drawable/ic_view_week_black_24dp"
+        android:title="@string/title_week" />
+
+    <item
+        android:id="@+id/navigation_season"
+        android:icon="@drawable/ic_insert_chart_black_24dp"
+        android:title="@string/title_season" />
+
+
+
+
+</menu>
